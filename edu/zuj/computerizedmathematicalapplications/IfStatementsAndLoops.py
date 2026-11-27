@@ -85,3 +85,59 @@ for i in range(1, 6):
 average = total / 5
 
 print(average)
+
+print("")
+
+for n in range(1, 11):
+    if n % 2 == 0:
+        print(n)
+
+print("")
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, j, sep = ", ")
+
+print("")
+
+n = 1
+
+for i in range (1, 13):
+    for n in range(1, 13):
+        print(n, " x ", i, " = ", n * i)
+        n += 1
+    print("------------")
+
+print("")
+
+count = 1
+
+while count <= 5:
+    print(count)
+    count += 1
+
+print("")
+
+count = 10
+
+while count > 0:
+    print(count)
+    count -= 2
+
+print("")
+
+for i in range(5):
+    if i == 2:
+        continue
+
+    print(i)
+
+print("")
+
+for n in range(1, 20):
+    if n > 7:
+        break
+    if n % 2 == 0:
+        print(n)
+
+print("")
